@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            background-color: aqua;
+        }
+        body{
+           /* background-image: url(image.jpg);
+            background-repeat: round;
+            background-attachment: fixed;
+            background-position: right bottom; */
+        }
+        #salsawit{
+            background:linear-gradient( to left, rgb(137, 115, 115),rgb(102, 66, 102),rgb(95, 240, 240));
+            height: 200px;
+        }
+        #salsawit2{
+            height:200px;
+            background:radial-gradient( circle, rgb(50, 74, 55) 30%,rgb(42, 42, 56) 40%,rgb(61, 28, 28))
+        }
+        #salsawit3{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(87, 101, 225);
+            animation-name: salsawit3;
+            animation-duration: 6s;
+        }
+        @keyframes salsawit3{
+            0% {background-color: rgb(237, 19, 219);}
+        40% {background-color: rgb(157, 255, 0);}
+        }
+    </style>
+</head>
+<body>
+    <p>Hello</p>
+    <div id="salsawit" ></div>
+    <div id="salsawit2"></div>
+    <div id="salsawit3"></div>
+</body>
+</html>
